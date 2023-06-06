@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+	<Category>
+		<CategoryId>1</CategoryId>
+		<CategoryName>meat</CategoryName>
+		<DishName>beef steak</DishName>
+	</Category>
+	<Category>
+		<CategoryId>2</CategoryId>
+		<CategoryName>vegan</CategoryName>
+		<DishName>vegetables on steam</DishName>
+	</Category>
+	<Category>
+		<CategoryId>3</CategoryId>
+		<CategoryName>soups</CategoryName>
+		<DishName>cream soup with beans</DishName>
+	</Category>
+	<Category>
+		<CategoryId>4</CategoryId>
+		<CategoryName>cereals</CategoryName>
+		<DishName>rice with vegetables</DishName>
+	</Category>
+	<Category>
+		<CategoryId>5</CategoryId>
+		<CategoryName>desserts</CategoryName>
+		<DishName>ice cream with chocolate</DishName>
+	</Category>
+	<Menu>
+		<MenuId>1</MenuId>
+		<CategoryId>1</CategoryId>
+		<Date>3/12/2023</Date>
+		<DishName>beef steak</DishName>
+		<Cost>350</Cost>
+	</Menu>
+	<Menu>
+		<MenuId>2</MenuId>
+		<CategoryId>2</CategoryId>
+		<Date>3/11/2023</Date>
+		<DishName>vegetables on steam</DishName>
+		<Cost>150</Cost>
+	</Menu>
+	<Menu>
+		<MenuId>3</MenuId>
+		<CategoryId>3</CategoryId>
+		<Date>3/10/2023</Date>
+		<DishName>cream soup with beans</DishName>
+		<Cost>200</Cost>
+	</Menu>
+	<Menu>
+		<MenuId>4</MenuId>
+		<CategoryId>4</CategoryId>
+		<Date>3/12/2023</Date>
+		<DishName>rice with vegetables</DishName>
+		<Cost>120</Cost>
+	</Menu>
+	<Menu>
+		<MenuId>5</MenuId>
+		<CategoryId>5</CategoryId>
+		<Date>3/12/2023</Date>
+		<DishName>rice with vegetables</DishName>
+		<Cost>120</Cost>
+	</Menu>
+	<Menu>
+		<MenuId>6</MenuId>
+		<CategoryId>2</CategoryId>
+		<Date>3/12/2023</Date>
+		<DishName>rice with vegetables</DishName>
+		<Cost>120</Cost>
+	</Menu>
+	<Menu>
+		<MenuId>7</MenuId>
+		<CategoryId>2</CategoryId>
+		<Date>3/10/2023</Date>
+		<DishName>cream soup with beans</DishName>
+		<Cost>200</Cost>
+	</Menu>
+	<Ingredient>
+		<IngredientId>1</IngredientId>
+		<IngredientName>rice</IngredientName>
+		<AmountOfCalories>220</AmountOfCalories>
+	</Ingredient>
+	<Ingredient>
+		<IngredientId>2</IngredientId>
+		<IngredientName>beef</IngredientName>
+		<AmountOfCalories>350</AmountOfCalories>
+	</Ingredient>
+	<Ingredient>
+		<IngredientId>3</IngredientId>
+		<IngredientName>vegetables</IngredientName>
+		<AmountOfCalories>75</AmountOfCalories>
+	</Ingredient>
+	<Ingredient>
+		<IngredientId>4</IngredientId>
+		<IngredientName>ice cream</IngredientName>
+		<AmountOfCalories>400</AmountOfCalories>
+	</Ingredient>
+	<Ingredient>
+		<IngredientId>5</IngredientId>
+		<IngredientName>beans</IngredientName>
+		<AmountOfCalories>50</AmountOfCalories>
+	</Ingredient>
+	<Ingredient>
+		<IngredientId>6</IngredientId>
+		<IngredientName>potato</IngredientName>
+		<AmountOfCalories>80</AmountOfCalories>
+	</Ingredient>
+	<Ingredient>
+		<IngredientId>7</IngredientId>
+		<IngredientName>broccoli</IngredientName>
+		<AmountOfCalories>70</AmountOfCalories>
+	</Ingredient>
+
+	<Ingredient>
+		<IngredientId>8</IngredientId>
+		<IngredientName>chocolate</IngredientName>
+		<AmountOfCalories>600</AmountOfCalories>
+	</Ingredient>
+	<Dish>
+		<DishId>1</DishId>
+		<DishName>beef steak</DishName>
+		<IngredientId>2</IngredientId>
+		<AmountOfIngredient>250</AmountOfIngredient>
+	</Dish>
+	<Dish>
+		<DishId>2</DishId>
+		<DishName>vegetables on steam</DishName>
+		<IngredientId>3</IngredientId>
+		<AmountOfIngredient>300</AmountOfIngredient>
+	</Dish>
+	<Dish>
+		<DishId>3</DishId>
+		<DishName>rice with vegetables</DishName>
+		<IngredientId>1</IngredientId>
+		<AmountOfIngredient>150</AmountOfIngredient>
+	</Dish>
+	<Dish>
+		<DishId>4</DishId>
+		<DishName>cream soup with beans</DishName>
+		<IngredientId>7</IngredientId>
+		<AmountOfIngredient>65</AmountOfIngredient>
+	</Dish>
+	<Dish>
+		<DishId>5</DishId>
+		<DishName>ice cream with chocolate</DishName>
+		<IngredientId>4</IngredientId>
+		<AmountOfIngredient>200</AmountOfIngredient>
+	</Dish>
+</Data>
